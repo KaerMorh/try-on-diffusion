@@ -1,0 +1,11 @@
+python test.py --plms --gpu_id 0 \
+--ddim_steps 100 \
+--outdir results/viton \
+--config configs/v4_viton.yaml \
+--ckpt models/Paint-by-Example/2023-04-30T19-28-37_v3_viton_1024/checkpoints/epoch=000039.ckpt \
+--n_samples 6 \
+--seed 23 \
+--scale 5 \
+--H 512 \
+--W 512 \
+--unpaired

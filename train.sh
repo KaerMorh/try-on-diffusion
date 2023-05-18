@@ -1,0 +1,1 @@
+python -u main.py --logdir models/try-on-diffusion --pretrained_model checkpoints/model.ckpt --base configs/v4_viton.yaml --scale_lr False
